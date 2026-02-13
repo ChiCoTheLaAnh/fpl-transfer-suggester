@@ -1,0 +1,513 @@
+player,team,xg90,xa90,minutes_understat,xg_total,xa_total,team_understat
+Ben White,ARS,0.06,0.254,406,0.27,1.147,Arsenal
+Bukayo Saka,ARS,0.373,0.34,1572,6.514,5.946,Arsenal
+Christian Nørgaard,ARS,0.162,0.0,27,0.049,0.0,Arsenal
+Cristhian Mosquera,ARS,0.0,0.01,520,0.0,0.061,Arsenal
+David Raya,ARS,0.0,0.006,2340,0.0,0.149,Arsenal
+Declan Rice,ARS,0.147,0.241,2153,3.508,5.755,Arsenal
+Ethan Nwaneri,ARS,0.192,0.028,154,0.329,0.048,Arsenal
+Gabriel,ARS,0.166,0.09,1717,3.169,1.713,Arsenal
+Gabriel Jesus,ARS,0.888,0.029,263,2.595,0.083,Arsenal
+Gabriel Martinelli,ARS,0.498,0.214,588,3.253,1.399,Arsenal
+Jurriën Timber,ARS,0.144,0.093,2103,3.358,2.183,Arsenal
+Kai Havertz,ARS,0.095,0.102,163,0.173,0.185,Arsenal
+Leandro Trossard,ARS,0.322,0.193,1524,5.446,3.276,Arsenal
+Martin Odegaard,ARS,0.094,0.308,1052,1.098,3.601,Arsenal
+Martín Zubimendi,ARS,0.106,0.034,2205,2.587,0.839,Arsenal
+Max Dowman,ARS,0.579,0.0,24,0.154,0.0,Arsenal
+Mikel Merino,ARS,0.419,0.211,977,4.552,2.29,Arsenal
+Myles Lewis-Skelly,ARS,0.022,0.039,285,0.07,0.122,Arsenal
+Noni Madueke,ARS,0.167,0.289,788,1.458,2.533,Arsenal
+Piero Hincapié,ARS,0.0,0.048,1129,0.0,0.597,Arsenal
+Riccardo Calafiori,ARS,0.165,0.025,1390,2.552,0.385,Arsenal
+Viktor Gyokeres,ARS,0.482,0.084,1601,8.568,1.494,Arsenal
+William Saliba,ARS,0.029,0.02,1709,0.559,0.382,Arsenal
+Alysson Edward,AVL,0.0,0.0,13,0.0,0.0,Aston Villa
+Amadou Onana,AVL,0.06,0.027,1177,0.78,0.357,Aston Villa
+Andrés García,AVL,0.0,0.0,27,0.0,0.0,Aston Villa
+Boubacar Kamara,AVL,0.066,0.046,1434,1.052,0.729,Aston Villa
+Bradley Burrowes,AVL,0.0,0.0,12,0.0,0.0,Aston Villa
+Donyell Malen,AVL,0.711,0.055,600,4.739,0.369,Aston Villa
+Emiliano Buendía,AVL,0.241,0.157,1165,3.115,2.03,Aston Villa
+Emiliano Martinez,AVL,0.0,0.0,1937,0.0,0.0,Aston Villa
+Ezri Konsa Ngoyo,AVL,0.032,0.023,2226,0.785,0.565,Aston Villa
+George Hemmings,AVL,0.092,0.0,19,0.019,0.0,Aston Villa
+Ian Maatsen,AVL,0.077,0.147,1041,0.896,1.704,Aston Villa
+Jadon Sancho,AVL,0.115,0.23,573,0.733,1.465,Aston Villa
+Jamaldeen Jimoh,AVL,0.0,0.0,5,0.0,0.0,Aston Villa
+John McGinn,AVL,0.129,0.108,1663,2.386,1.997,Aston Villa
+Lamare Bogarde,AVL,0.0,0.006,636,0.0,0.041,Aston Villa
+Leon Bailey,AVL,0.135,0.227,115,0.173,0.29,Aston Villa
+Lucas Digne,AVL,0.04,0.126,1321,0.593,1.851,Aston Villa
+Marco Bizot,AVL,0.0,0.0,403,0.0,0.0,Aston Villa
+Matthew Cash,AVL,0.046,0.102,2143,1.091,2.428,Aston Villa
+Morgan Rogers,AVL,0.177,0.209,2330,4.574,5.407,Aston Villa
+Ollie Watkins,AVL,0.501,0.06,1946,10.833,1.288,Aston Villa
+Pau Torres,AVL,0.047,0.001,1215,0.632,0.007,Aston Villa
+Ross Barkley,AVL,0.259,0.274,124,0.357,0.378,Aston Villa
+Tammy Abraham,AVL,0.424,0.052,103,0.485,0.059,Aston Villa
+Tyrone Mings,AVL,0.052,0.022,684,0.398,0.165,Aston Villa
+Victor Lindelöf,AVL,0.003,0.097,556,0.016,0.598,Aston Villa
+Youri Tielemans,AVL,0.111,0.183,1302,1.613,2.645,Aston Villa
+Bart Verbruggen,BHA,0.0,0.003,2340,0.0,0.076,Brighton
+Brajan Gruda,BHA,0.223,0.153,716,1.772,1.215,Brighton
+Carlos Baleba,BHA,0.025,0.007,1226,0.336,0.094,Brighton
+Charalampos Kostoulas,BHA,0.639,0.231,264,1.875,0.679,Brighton
+Danny Welbeck,BHA,0.52,0.046,1456,8.418,0.739,Brighton
+Diego Coppola,BHA,0.0,0.0,192,0.0,0.0,Brighton
+Diego Gómez,BHA,0.271,0.08,1560,4.691,1.38,Brighton
+Ferdi Kadioglu,BHA,0.053,0.044,2065,1.217,1.018,Brighton
+Georginio Rutter,BHA,0.139,0.185,1531,2.358,3.142,Brighton
+Harry Howell,BHA,0.0,0.0,81,0.0,0.0,Brighton
+Jack Hinshelwood,BHA,0.093,0.042,755,0.781,0.356,Brighton
+James Milner,BHA,0.22,0.13,362,0.886,0.524,Brighton
+Jan Paul van Hecke,BHA,0.106,0.022,2134,2.502,0.523,Brighton
+Joe Knight,BHA,0.0,0.0,1,0.0,0.0,Brighton
+Joël Veltman,BHA,0.111,0.029,769,0.952,0.252,Brighton
+Kaoru Mitoma,BHA,0.158,0.22,1186,2.085,2.897,Brighton
+Lewis Dunk,BHA,0.033,0.02,2200,0.8,0.483,Brighton
+Mats Wieffer,BHA,0.085,0.205,1183,1.118,2.701,Brighton
+Matt O&#039;Riley,BHA,0.561,0.074,183,1.14,0.15,Brighton
+Maxim De Cuyper,BHA,0.126,0.195,1137,1.59,2.468,Brighton
+Nehemiah Oriola,BHA,0.0,0.0,1,0.0,0.0,Brighton
+Olivier Boscagli,BHA,0.005,0.017,351,0.021,0.065,Brighton
+Pascal Groß,BHA,0.093,0.197,555,0.574,1.218,Brighton
+Stefanos Tzimas,BHA,0.507,0.312,111,0.625,0.384,Brighton
+Tom Watson,BHA,0.051,0.0,44,0.025,0.0,Brighton
+Yankuba Minteh,BHA,0.168,0.212,1647,3.067,3.878,Brighton
+Yasin Ayari,BHA,0.102,0.053,1702,1.938,0.999,Brighton
+Adam Smith,BOU,0.0,0.054,729,0.0,0.434,Bournemouth
+Adrien Truffert,BOU,0.014,0.068,2311,0.369,1.756,Bournemouth
+Alejandro Jiménez,BOU,0.056,0.05,1622,1.011,0.904,Bournemouth
+Alex Scott,BOU,0.109,0.062,1925,2.327,1.33,Bournemouth
+Alex Tóth,BOU,0.136,0.153,66,0.1,0.112,Bournemouth
+Amine Adli,BOU,0.382,0.117,811,3.444,1.053,Bournemouth
+Bafode Diakite,BOU,0.001,0.006,1276,0.014,0.085,Bournemouth
+Ben Doak,BOU,0.192,1.029,40,0.085,0.457,Bournemouth
+Ben Winterburn,BOU,0.0,0.0,3,0.0,0.0,Bournemouth
+David Brooks,BOU,0.449,0.323,963,4.803,3.459,Bournemouth
+Djordje Petrovic,BOU,0.0,0.0,2340,0.0,0.0,Bournemouth
+Eli Junior Kroupi,BOU,0.442,0.101,880,4.322,0.986,Bournemouth
+Enes Ünal,BOU,0.972,0.0,114,1.231,0.0,Bournemouth
+Evanilson,BOU,0.425,0.094,1865,8.799,1.948,Bournemouth
+Hamed Junior Traore,BOU,0.0,0.662,13,0.0,0.096,Bournemouth
+James Hill,BOU,0.015,0.089,1020,0.169,1.009,Bournemouth
+Julio Soler,BOU,0.0,0.0,27,0.0,0.0,Bournemouth
+Justin Kluivert,BOU,0.218,0.227,909,2.203,2.295,Bournemouth
+Lewis Cook,BOU,0.006,0.037,839,0.06,0.347,Bournemouth
+Marcos Senesi,BOU,0.066,0.137,2218,1.631,3.382,Bournemouth
+Marcus Tavernier,BOU,0.245,0.138,1792,4.868,2.752,Bournemouth
+Rayan,BOU,0.345,0.386,201,0.77,0.862,Bournemouth
+Ryan Christie,BOU,0.297,0.189,411,1.358,0.865,Bournemouth
+Tyler Adams,BOU,0.062,0.005,1226,0.839,0.073,Bournemouth
+Veljko Milosavljevic,BOU,0.089,0.017,363,0.357,0.067,Bournemouth
+Aaron Hickey,BRE,0.09,0.102,533,0.535,0.604,Brentford
+Antoni Milambo,BRE,0.0,0.0,50,0.0,0.0,Brentford
+Caoimhin Kelleher,BRE,0.0,0.004,2340,0.0,0.106,Brentford
+Dango Ouattara,BRE,0.347,0.162,1393,5.377,2.513,Brentford
+Ethan Pinnock,BRE,0.0,0.0,240,0.0,0.0,Brentford
+Fabio Carvalho,BRE,0.64,0.0,97,0.69,0.0,Brentford
+Frank Onyeka,BRE,0.0,0.491,68,0.0,0.371,Brentford
+Jordan Henderson,BRE,0.033,0.154,1508,0.551,2.586,Brentford
+Keane Lewis-Potter,BRE,0.16,0.114,1070,1.906,1.354,Brentford
+Kevin Schade,BRE,0.385,0.191,1886,8.061,4.004,Brentford
+Kristoffer Ajer,BRE,0.069,0.054,1363,1.045,0.816,Brentford
+Mathias Jensen,BRE,0.089,0.232,1205,1.195,3.101,Brentford
+Michael Kayode,BRE,0.012,0.085,2291,0.297,2.154,Brentford
+Mikkel Damsgaard,BRE,0.094,0.328,1328,1.393,4.839,Brentford
+Myles Peart-Harris,BRE,0.0,0.0,1,0.0,0.0,Brentford
+Nathan Collins,BRE,0.101,0.079,2020,2.259,1.781,Brentford
+Reiss Nelson,BRE,1.134,0.0,47,0.592,0.0,Brentford
+Rico Henry,BRE,0.012,0.013,1115,0.146,0.167,Brentford
+Romelle Donovan,BRE,1.021,0.481,6,0.068,0.032,Brentford
+Sepp van den Berg,BRE,0.111,0.046,1854,2.295,0.947,Brentford
+Thiago,BRE,0.748,0.096,2212,18.374,2.371,Brentford
+Vitaly Janelt,BRE,0.051,0.273,1184,0.678,3.589,Brentford
+Yehor Yarmolyuk,BRE,0.064,0.055,1900,1.35,1.168,Brentford
+Armando Broja,BUR,0.285,0.059,795,2.517,0.519,Burnley
+Ashley Barnes,BUR,1.484,0.0,7,0.115,0.0,Burnley
+Axel Tuanzebe,BUR,0.054,0.0,939,0.558,0.0,Burnley
+Bashir Humphreys,BUR,0.022,0.067,797,0.199,0.592,Burnley
+Chimuanya Ugochukwu,BUR,0.118,0.02,1756,2.299,0.4,Burnley
+Florentino Luís,BUR,0.052,0.025,1611,0.939,0.454,Burnley
+Hannibal Mejbri,BUR,0.049,0.23,636,0.344,1.626,Burnley
+Hjalmar Ekdal,BUR,0.04,0.012,1185,0.532,0.155,Burnley
+Jacob Bruun Larsen,BUR,0.128,0.126,906,1.289,1.266,Burnley
+Jaidon Anthony,BUR,0.175,0.103,1706,3.324,1.957,Burnley
+Jaydon Banel,BUR,0.0,0.0,7,0.0,0.0,Burnley
+Joe Worrall,BUR,0.0,0.0,222,0.0,0.0,Burnley
+Josh Cullen,BUR,0.06,0.107,1533,1.014,1.817,Burnley
+Josh Laurent,BUR,0.03,0.028,1225,0.408,0.386,Burnley
+Kyle Walker,BUR,0.003,0.051,2239,0.081,1.274,Burnley
+Loum Tchaouna,BUR,0.101,0.036,803,0.899,0.322,Burnley
+Lucas Pires,BUR,0.046,0.052,856,0.438,0.492,Burnley
+Lyle Foster,BUR,0.225,0.071,1039,2.596,0.814,Burnley
+Marcus Edwards,BUR,0.222,0.256,780,1.927,2.215,Burnley
+Martin Dubravka,BUR,0.0,0.0,2340,0.0,0.0,Burnley
+Maxime Estève,BUR,0.01,0.032,1977,0.224,0.702,Burnley
+Mike Trésor,BUR,0.0,0.0,13,0.0,0.0,Burnley
+Oliver Sonne,BUR,0.227,0.016,149,0.375,0.027,Burnley
+Quilindschy Hartman,BUR,0.008,0.119,1346,0.118,1.786,Burnley
+Zian Flemming,BUR,0.521,0.033,836,4.841,0.311,Burnley
+Alejandro Garnacho,CHE,0.303,0.271,921,3.097,2.773,Chelsea
+Andrey Santos,CHE,0.199,0.076,776,1.715,0.652,Chelsea
+Benoit Badiashile Mukinayi,CHE,0.0,0.0,478,0.0,0.0,Chelsea
+Cole Palmer,CHE,0.638,0.076,1030,7.301,0.875,Chelsea
+Enzo Fernández,CHE,0.416,0.276,2161,9.977,6.634,Chelsea
+Estêvão,CHE,0.45,0.331,753,3.761,2.768,Chelsea
+Filip Jorgensen,CHE,0.0,0.0,175,0.0,0.0,Chelsea
+Jamie Bynoe-Gittens,CHE,0.177,0.193,455,0.892,0.978,Chelsea
+Jorrel Hato,CHE,0.05,0.125,354,0.196,0.491,Chelsea
+Josh Acheampong,CHE,0.103,0.01,573,0.654,0.066,Chelsea
+João Pedro,CHE,0.44,0.165,1913,9.349,3.503,Chelsea
+Liam Delap,CHE,0.522,0.013,705,4.09,0.1,Chelsea
+Malo Gusto,CHE,0.112,0.111,1498,1.872,1.853,Chelsea
+Marc Cucurella,CHE,0.063,0.144,1902,1.33,3.033,Chelsea
+Moisés Caicedo,CHE,0.063,0.102,1775,1.245,2.008,Chelsea
+Pedro Neto,CHE,0.203,0.251,2003,4.52,5.576,Chelsea
+Reece James,CHE,0.061,0.203,1507,1.028,3.398,Chelsea
+Robert Sánchez,CHE,0.0,0.037,2164,0.0,0.885,Chelsea
+Romeo Lavia,CHE,0.0,0.0,96,0.0,0.0,Chelsea
+Tosin Adarabioyo,CHE,0.009,0.053,705,0.072,0.416,Chelsea
+Trevoh Chalobah,CHE,0.056,0.007,2200,1.368,0.16,Chelsea
+Wesley Fofana,CHE,0.016,0.055,947,0.168,0.574,Chelsea
+Adam Wharton,CRY,0.035,0.187,1942,0.765,4.032,Crystal Palace
+Borna Sosa,CRY,0.0,0.109,47,0.0,0.057,Crystal Palace
+Chadi Riad,CRY,0.095,0.321,120,0.126,0.428,Crystal Palace
+Chris Richards,CRY,0.039,0.015,1974,0.848,0.336,Crystal Palace
+Christantus Uche,CRY,0.581,0.0,108,0.697,0.0,Crystal Palace
+Daichi Kamada,CRY,0.084,0.062,1279,1.195,0.874,Crystal Palace
+Daniel Muñoz,CRY,0.116,0.212,1593,2.051,3.745,Crystal Palace
+Dean Henderson,CRY,0.0,0.001,2340,0.0,0.015,Crystal Palace
+Eberechi Eze,CRY,0.166,0.156,1149,2.122,1.986,Crystal Palace
+Eddie Nketiah,CRY,0.442,0.218,396,1.943,0.961,Crystal Palace
+Evann Guessand,CRY,0.188,0.163,684,1.432,1.238,Crystal Palace
+Ismaila Sarr,CRY,0.438,0.124,1382,6.723,1.898,Crystal Palace
+Jaydee Canvot,CRY,0.019,0.0,348,0.072,0.0,Crystal Palace
+Jean-Philippe Mateta,CRY,0.599,0.051,1938,12.903,1.106,Crystal Palace
+Jefferson Lerma,CRY,0.107,0.103,1132,1.352,1.29,Crystal Palace
+Joél Drakes-Thomas,CRY,0.0,0.0,2,0.0,0.0,Crystal Palace
+Justin Devenny,CRY,0.352,0.052,574,2.245,0.332,Crystal Palace
+Kaden Rodney,CRY,0.0,0.0,1,0.0,0.0,Crystal Palace
+Maxence Lacroix,CRY,0.096,0.046,2340,2.499,1.208,Crystal Palace
+Nathaniel Clyne,CRY,0.056,0.139,438,0.27,0.674,Crystal Palace
+Odsonne Edouard,CRY,0.0,0.0,1,0.0,0.0,Crystal Palace
+Romain Esse,CRY,0.0,0.0,29,0.0,0.0,Crystal Palace
+Tyrick Mitchell,CRY,0.049,0.061,2317,1.258,1.56,Crystal Palace
+Will Hughes,CRY,0.097,0.133,1152,1.246,1.706,Crystal Palace
+Yeremi Pino,CRY,0.195,0.299,1678,3.636,5.58,Crystal Palace
+Beto,EVE,0.597,0.055,856,5.676,0.527,Everton
+Carlos Alcaraz,EVE,0.124,0.162,675,0.929,1.214,Everton
+Dwight McNeil,EVE,0.071,0.132,614,0.487,0.9,Everton
+Harrison Armstrong,EVE,0.076,0.024,411,0.346,0.109,Everton
+Idrissa Gueye,EVE,0.095,0.062,1414,1.485,0.968,Everton
+Iliman Ndiaye,EVE,0.213,0.174,1725,4.086,3.335,Everton
+Jack Grealish,EVE,0.169,0.249,1645,3.085,4.558,Everton
+Jake O&#039;Brien,EVE,0.024,0.021,2203,0.589,0.521,Everton
+James Garner,EVE,0.072,0.181,2337,1.871,4.705,Everton
+James Tarkowski,EVE,0.073,0.052,2340,1.904,1.365,Everton
+Jarrad Branthwaite,EVE,0.068,0.008,226,0.17,0.019,Everton
+Jordan Pickford,EVE,0.0,0.0,2340,0.0,0.0,Everton
+Kiernan Dewsbury-Hall,EVE,0.135,0.202,1570,2.352,3.518,Everton
+Merlin Röhl,EVE,0.107,0.072,320,0.381,0.256,Everton
+Michael Keane,EVE,0.154,0.005,1861,3.175,0.098,Everton
+Nathan Patterson,EVE,0.064,0.0,240,0.17,0.0,Everton
+Seamus Coleman,EVE,0.0,0.0,11,0.0,0.0,Everton
+Thierno Barry,EVE,0.391,0.053,1529,6.64,0.9,Everton
+Tim Iroegbunam,EVE,0.028,0.168,942,0.295,1.762,Everton
+Tyler Dibling,EVE,0.037,0.057,336,0.138,0.213,Everton
+Tyrique George,EVE,0.243,0.0,223,0.603,0.0,Everton
+Vitalii Mykolenko,EVE,0.013,0.037,1973,0.277,0.804,Everton
+Alex Iwobi,FUL,0.058,0.117,1730,1.115,2.248,Fulham
+Antonee Robinson,FUL,0.015,0.07,794,0.135,0.622,Fulham
+Bernd Leno,FUL,0.0,0.0,2340,0.0,0.0,Fulham
+Calvin Bassey,FUL,0.051,0.005,1443,0.819,0.074,Fulham
+Emile Smith-Rowe,FUL,0.213,0.076,1251,2.958,1.057,Fulham
+Harrison Reed,FUL,0.18,0.0,11,0.022,0.0,Fulham
+Harry Wilson,FUL,0.171,0.165,1986,3.764,3.64,Fulham
+Issa Diop,FUL,0.01,0.0,413,0.046,0.0,Fulham
+Joachim Andersen,FUL,0.06,0.021,2201,1.465,0.511,Fulham
+Jonah Kusi-Asare,FUL,0.0,0.388,19,0.0,0.082,Fulham
+Jorge Cuenca,FUL,0.005,0.049,946,0.051,0.516,Fulham
+Joshua King,FUL,0.18,0.04,939,1.881,0.418,Fulham
+Kenny Tete,FUL,0.034,0.052,1452,0.555,0.836,Fulham
+Kevin,FUL,0.126,0.131,831,1.165,1.205,Fulham
+Raúl Jiménez,FUL,0.476,0.083,1730,9.143,1.6,Fulham
+Rodrigo Muniz,FUL,0.429,0.122,406,1.935,0.549,Fulham
+Ryan Sessegnon,FUL,0.075,0.128,1432,1.192,2.03,Fulham
+Samuel Chukwueze,FUL,0.209,0.347,621,1.439,2.392,Fulham
+Sander Berge,FUL,0.035,0.064,2181,0.838,1.546,Fulham
+Sasa Lukic,FUL,0.144,0.108,1215,1.942,1.462,Fulham
+Timothy Castagne,FUL,0.06,0.033,1121,0.751,0.415,Fulham
+Tom Cairney,FUL,0.112,0.04,447,0.557,0.198,Fulham
+Anton Stach,LEE,0.117,0.246,1712,2.233,4.672,Leeds
+Ao Tanaka,LEE,0.128,0.106,753,1.071,0.885,Leeds
+Brenden Aaronson,LEE,0.25,0.209,1685,4.682,3.904,Leeds
+Daniel James,LEE,0.151,0.095,365,0.614,0.387,Leeds
+Dominic Calvert-Lewin,LEE,0.58,0.071,1671,10.76,1.317,Leeds
+Ethan Ampadu,LEE,0.06,0.035,2050,1.361,0.808,Leeds
+Facundo Buonanotte,LEE,0.06,0.227,67,0.044,0.169,Leeds
+Gabriel Gudmundsson,LEE,0.029,0.104,2114,0.69,2.442,Leeds
+Ilia Gruev,LEE,0.054,0.127,1016,0.608,1.436,Leeds
+Jack Harrison,LEE,0.168,0.131,232,0.434,0.338,Leeds
+Jaka Bijol,LEE,0.033,0.065,1081,0.391,0.785,Leeds
+James Justin,LEE,0.122,0.173,828,1.12,1.588,Leeds
+Jayden Bogle,LEE,0.073,0.053,2041,1.664,1.208,Leeds
+Joe Rodon,LEE,0.058,0.012,2100,1.36,0.269,Leeds
+Joël Piroe,LEE,0.423,0.0,186,0.873,0.0,Leeds
+Karl Darlow,LEE,0.0,0.0,900,0.0,0.0,Leeds
+Lucas Perri,LEE,0.0,0.0,1440,0.0,0.0,Leeds
+Lukas Nmecha,LEE,0.793,0.091,695,6.127,0.703,Leeds
+Noah Okafor,LEE,0.33,0.091,1298,4.759,1.31,Leeds
+Pascal Struijk,LEE,0.113,0.029,1984,2.498,0.639,Leeds
+Sam Byram,LEE,0.0,0.0,4,0.0,0.0,Leeds
+Sean Longstaff,LEE,0.067,0.226,938,0.696,2.359,Leeds
+Sebastiaan Bornauw,LEE,0.0,0.0,316,0.0,0.0,Leeds
+Wilfried Gnonto,LEE,0.076,0.185,336,0.284,0.691,Leeds
+Alexander Isak,LIV,0.48,0.147,519,2.768,0.846,Liverpool
+Alexis Mac Allister,LIV,0.11,0.081,1759,2.145,1.59,Liverpool
+Alisson,LIV,0.0,0.0,1890,0.0,0.0,Liverpool
+Andrew Robertson,LIV,0.041,0.171,617,0.28,1.175,Liverpool
+Cody Gakpo,LIV,0.327,0.274,1745,6.347,5.319,Liverpool
+Conor Bradley,LIV,0.021,0.112,962,0.22,1.194,Liverpool
+Curtis Jones,LIV,0.076,0.188,1087,0.918,2.269,Liverpool
+Dominik Szoboszlai,LIV,0.147,0.173,2156,3.533,4.144,Liverpool
+Federico Chiesa,LIV,0.669,0.643,185,1.374,1.321,Liverpool
+Florian Wirtz,LIV,0.28,0.189,1899,5.907,3.981,Liverpool
+Giorgi Mamardashvili,LIV,0.0,0.0,450,0.0,0.0,Liverpool
+Harvey Elliott,LIV,0.237,0.077,110,0.29,0.094,Liverpool
+Hugo Ekitike,LIV,0.625,0.102,1544,10.729,1.748,Liverpool
+Ibrahima Konaté,LIV,0.076,0.028,2172,1.844,0.673,Liverpool
+Jeremie Frimpong,LIV,0.058,0.286,526,0.338,1.674,Liverpool
+Joseph Gomez,LIV,0.018,0.256,284,0.057,0.808,Liverpool
+Milos Kerkez,LIV,0.049,0.089,1733,0.948,1.705,Liverpool
+Mohamed Salah,LIV,0.379,0.28,1546,6.514,4.818,Liverpool
+Rio Ngumoha,LIV,0.681,0.285,52,0.394,0.164,Liverpool
+Ryan Gravenberch,LIV,0.045,0.081,2126,1.056,1.92,Liverpool
+Treymaurice Nyoni,LIV,0.0,2.224,2,0.0,0.049,Liverpool
+Virgil van Dijk,LIV,0.079,0.007,2340,2.06,0.177,Liverpool
+Wataru Endo,LIV,0.034,0.077,162,0.062,0.139,Liverpool
+Abduqodir Khusanov,MCI,0.011,0.014,743,0.091,0.115,Manchester City
+Antoine Semenyo,MCI,0.38,0.12,2250,9.511,2.992,Manchester City
+Bernardo Silva,MCI,0.064,0.192,1930,1.379,4.119,Manchester City
+Divine Mukasa,MCI,0.0,0.907,21,0.0,0.212,Manchester City
+Erling Haaland,MCI,0.909,0.179,2169,21.904,4.324,Manchester City
+Gianluigi Donnarumma,MCI,0.0,0.0,2070,0.0,0.0,Manchester City
+James Trafford,MCI,0.0,0.0,270,0.0,0.0,Manchester City
+John Stones,MCI,0.0,0.016,356,0.0,0.063,Manchester City
+Josko Gvardiol,MCI,0.125,0.03,1307,1.818,0.438,Manchester City
+Jéremy Doku,MCI,0.201,0.394,1190,2.661,5.212,Manchester City
+Marc Guehi,MCI,0.125,0.082,2160,3.003,1.957,Manchester City
+Mateo Kovacic,MCI,0.0,0.0,2,0.0,0.0,Manchester City
+Matheus Nunes,MCI,0.028,0.084,1907,0.585,1.782,Manchester City
+Mathis Cherki,MCI,0.179,0.557,1084,2.156,6.707,Manchester City
+Max Alleyne,MCI,0.249,0.021,138,0.381,0.032,Manchester City
+Nathan Aké,MCI,0.037,0.13,477,0.197,0.691,Manchester City
+Nico González,MCI,0.032,0.049,1385,0.5,0.746,Manchester City
+Nico O&#039;Reilly,MCI,0.138,0.133,1878,2.879,2.775,Manchester City
+Omar Marmoush,MCI,0.437,0.314,377,1.832,1.315,Manchester City
+Oscar Bobb,MCI,0.167,0.153,493,0.913,0.838,Manchester City
+Phil Foden,MCI,0.298,0.226,1726,5.72,4.343,Manchester City
+Rayan Ait Nouri,MCI,0.04,0.048,466,0.208,0.251,Manchester City
+Rico Lewis,MCI,0.022,0.45,299,0.074,1.495,Manchester City
+Rodri,MCI,0.018,0.108,871,0.176,1.049,Manchester City
+Rúben Dias,MCI,0.019,0.006,1821,0.39,0.12,Manchester City
+Sávio,MCI,0.327,0.106,519,1.883,0.61,Manchester City
+Tijjani Reijnders,MCI,0.27,0.186,1470,4.412,3.033,Manchester City
+Altay Bayindir,MUN,0.0,0.049,540,0.0,0.294,Manchester United
+Amad Diallo Traore,MUN,0.238,0.203,1662,4.398,3.751,Manchester United
+Ayden Heaven,MUN,0.03,0.051,643,0.215,0.365,Manchester United
+Bendito Mantato,MUN,0.0,0.235,14,0.0,0.036,Manchester United
+Benjamin Sesko,MUN,0.68,0.043,1092,8.256,0.525,Manchester United
+Bruno Fernandes,MUN,0.399,0.455,2002,8.88,10.13,Manchester United
+Bryan Mbeumo,MUN,0.414,0.161,1837,8.441,3.292,Manchester United
+Casemiro,MUN,0.225,0.117,1784,4.463,2.328,Manchester United
+Diogo Dalot,MUN,0.074,0.135,1856,1.519,2.788,Manchester United
+Harry Maguire,MUN,0.103,0.023,779,0.888,0.195,Manchester United
+Jack Fletcher,MUN,0.035,0.107,97,0.037,0.115,Manchester United
+Joshua Zirkzee,MUN,0.589,0.199,477,3.123,1.053,Manchester United
+Kobbie Mainoo,MUN,0.018,0.072,638,0.131,0.512,Manchester United
+Leny Yoro,MUN,0.061,0.008,1167,0.792,0.103,Manchester United
+Lisandro Martínez,MUN,0.005,0.044,889,0.054,0.436,Manchester United
+Luke Shaw,MUN,0.012,0.05,2296,0.306,1.288,Manchester United
+Manuel Ugarte,MUN,0.041,0.014,732,0.331,0.111,Manchester United
+Mason Mount,MUN,0.186,0.15,827,1.713,1.376,Manchester United
+Matheus Cunha,MUN,0.259,0.13,1626,4.685,2.357,Manchester United
+Matthijs de Ligt,MUN,0.102,0.033,1170,1.323,0.428,Manchester United
+Noussair Mazraoui,MUN,0.016,0.015,453,0.079,0.076,Manchester United
+Patrick Dorgu,MUN,0.141,0.179,1327,2.081,2.646,Manchester United
+Senne Lammens,MUN,0.0,0.0,1800,0.0,0.0,Manchester United
+Shea Lacey,MUN,0.89,0.0,6,0.059,0.0,Manchester United
+Tyler Fletcher,MUN,0.0,0.0,1,0.0,0.0,Manchester United
+Tyler Fredricson,MUN,0.0,0.0,1,0.0,0.0,Manchester United
+Tyrell Malacia,MUN,0.0,0.0,1,0.0,0.0,Manchester United
+Aaron Ramsdale,NEW,0.0,0.012,548,0.0,0.071,Newcastle United
+Alex Murphy,NEW,0.0,0.0,1,0.0,0.0,Newcastle United
+Anthony Elanga,NEW,0.109,0.157,897,1.087,1.562,Newcastle United
+Anthony Gordon,NEW,0.394,0.23,1374,6.014,3.505,Newcastle United
+Bruno Guimarães,NEW,0.257,0.14,2022,5.775,3.149,Newcastle United
+Dan Burn,NEW,0.009,0.023,1451,0.142,0.363,Newcastle United
+Emil Krafth,NEW,0.0,0.0,51,0.0,0.0,Newcastle United
+Fabian Schär,NEW,0.079,0.013,1096,0.963,0.163,Newcastle United
+Harvey Barnes,NEW,0.413,0.151,1377,6.316,2.318,Newcastle United
+Jacob Murphy,NEW,0.233,0.332,1101,2.849,4.064,Newcastle United
+Jacob Ramsey,NEW,0.115,0.065,694,0.89,0.502,Newcastle United
+Jamaal Lascelles,NEW,0.881,0.0,8,0.078,0.0,Newcastle United
+Joe Willock,NEW,0.151,0.103,447,0.752,0.51,Newcastle United
+Joelinton,NEW,0.112,0.112,1377,1.709,1.719,Newcastle United
+Kieran Trippier,NEW,0.004,0.121,1152,0.053,1.553,Newcastle United
+Lewis Hall,NEW,0.058,0.122,1288,0.826,1.749,Newcastle United
+Lewis Miley,NEW,0.112,0.139,1110,1.376,1.709,Newcastle United
+Malick Thiaw,NEW,0.193,0.036,1944,4.166,0.782,Newcastle United
+Nick Pope,NEW,0.0,0.0,1792,0.0,0.0,Newcastle United
+Nick Woltemade,NEW,0.475,0.071,1452,7.658,1.143,Newcastle United
+Sandro Tonali,NEW,0.058,0.094,1812,1.169,1.884,Newcastle United
+Sven Botman,NEW,0.092,0.051,1065,1.088,0.6,Newcastle United
+Valentino Livramento,NEW,0.011,0.053,1044,0.133,0.616,Newcastle United
+William Osula,NEW,0.361,0.027,204,0.818,0.061,Newcastle United
+Yoane Wissa,NEW,0.539,0.03,399,2.391,0.135,Newcastle United
+Angus Gunn,NFO,0.0,0.0,38,0.0,0.0,Nottingham Forest
+Arnaud Kalimuendo Muinga,NFO,0.301,0.014,75,0.251,0.011,Nottingham Forest
+Callum Hudson-Odoi,NFO,0.15,0.188,1478,2.462,3.083,Nottingham Forest
+Chris Wood,NFO,0.332,0.028,560,2.067,0.174,Nottingham Forest
+Dan Ndoye,NFO,0.092,0.124,1108,1.136,1.521,Nottingham Forest
+Dilane Bakwa,NFO,0.181,0.211,297,0.599,0.696,Nottingham Forest
+Douglas Luiz,NFO,0.032,0.19,579,0.209,1.222,Nottingham Forest
+Elliot Anderson,NFO,0.081,0.085,2340,2.111,2.209,Nottingham Forest
+Ibrahim Sangare,NFO,0.099,0.06,1344,1.476,0.896,Nottingham Forest
+Igor Jesus,NFO,0.27,0.07,1470,4.414,1.142,Nottingham Forest
+Jair,NFO,0.0,0.0,90,0.0,0.0,Nottingham Forest
+James McAtee,NFO,0.008,0.174,152,0.013,0.293,Nottingham Forest
+John Victor,NFO,0.0,0.0,440,0.0,0.0,Nottingham Forest
+Jota Silva,NFO,0.0,0.0,7,0.0,0.0,Nottingham Forest
+Lorenzo Lucca,NFO,0.949,0.0,107,1.128,0.0,Nottingham Forest
+Luca Netz,NFO,0.0,0.0,13,0.0,0.0,Nottingham Forest
+Matz Sels,NFO,0.0,0.0,1682,0.0,0.0,Nottingham Forest
+Morato,NFO,0.135,0.001,934,1.402,0.014,Nottingham Forest
+Morgan Gibbs-White,NFO,0.293,0.115,2238,7.292,2.871,Nottingham Forest
+Murillo,NFO,0.02,0.012,1551,0.342,0.199,Nottingham Forest
+Neco Williams,NFO,0.053,0.125,2204,1.287,3.07,Nottingham Forest
+Nicolás Domínguez,NFO,0.077,0.07,837,0.712,0.647,Nottingham Forest
+Nicolò Savona,NFO,0.107,0.052,1036,1.235,0.594,Nottingham Forest
+Nikola Milenkovic,NFO,0.017,0.005,2340,0.432,0.123,Nottingham Forest
+Ola Aina,NFO,0.032,0.026,881,0.315,0.258,Nottingham Forest
+Oleksandr Zinchenko,NFO,0.02,0.117,347,0.077,0.451,Nottingham Forest
+Omari Hutchinson,NFO,0.171,0.311,1007,1.914,3.481,Nottingham Forest
+Ryan Yates,NFO,0.027,0.036,334,0.101,0.133,Nottingham Forest
+Stefan Ortega Moreno,NFO,0.0,0.0,180,0.0,0.0,Nottingham Forest
+Taiwo Awoniyi,NFO,0.67,0.369,180,1.339,0.737,Nottingham Forest
+Zach Abbott,NFO,0.0,0.0,117,0.0,0.0,Nottingham Forest
+Arthur Masuaku,SUN,0.053,0.04,132,0.078,0.058,Sunderland
+Bertrand Traoré,SUN,0.086,0.136,655,0.625,0.989,Sunderland
+Brian Brobbey,SUN,0.239,0.049,1120,2.969,0.614,Sunderland
+Chemsdine Talbi,SUN,0.114,0.038,1082,1.366,0.46,Sunderland
+Chris Rigg,SUN,0.058,0.091,388,0.249,0.393,Sunderland
+Dan Ballard,SUN,0.189,0.079,1669,3.501,1.462,Sunderland
+Dan Neil,SUN,0.0,0.0,13,0.0,0.0,Sunderland
+Dennis Cirkin,SUN,0.0,0.0,295,0.0,0.0,Sunderland
+Eliezer Mayenda,SUN,0.196,0.104,567,1.235,0.652,Sunderland
+Enzo Le Fée,SUN,0.157,0.1,2050,3.574,2.274,Sunderland
+Granit Xhaka,SUN,0.019,0.136,1965,0.411,2.979,Sunderland
+Habib Diarra,SUN,0.149,0.021,681,1.127,0.159,Sunderland
+Jenson Seelt,SUN,0.0,0.0,135,0.0,0.0,Sunderland
+Luke O&#039;Nien,SUN,0.0,0.0,14,0.0,0.0,Sunderland
+Lutsharel Geertruida,SUN,0.053,0.038,981,0.575,0.412,Sunderland
+Marc Guiu,SUN,0.948,0.293,233,2.455,0.759,Sunderland
+Nilson Angulo,SUN,0.255,0.039,82,0.232,0.035,Sunderland
+Noah Sadiki,SUN,0.016,0.02,1858,0.326,0.423,Sunderland
+Nordi Mukiele,SUN,0.075,0.105,2156,1.788,2.514,Sunderland
+Omar Alderete,SUN,0.059,0.024,1911,1.263,0.518,Sunderland
+Patrick Roberts,SUN,0.266,0.0,23,0.068,0.0,Sunderland
+Reinildo,SUN,0.011,0.016,1431,0.17,0.25,Sunderland
+Robin Roefs,SUN,0.0,0.027,2340,0.0,0.705,Sunderland
+Romaine Mundle,SUN,0.082,0.005,318,0.289,0.017,Sunderland
+Simon Adingra,SUN,0.045,0.099,665,0.336,0.732,Sunderland
+Trai Hume,SUN,0.08,0.051,2139,1.912,1.215,Sunderland
+Wilson Isidor,SUN,0.399,0.0,1019,4.516,0.0,Sunderland
+Archie Gray,TOT,0.131,0.056,953,1.391,0.598,Tottenham
+Ben Davies,TOT,0.524,0.016,137,0.798,0.025,Tottenham
+Brennan Johnson,TOT,0.164,0.071,1040,1.894,0.823,Tottenham
+Conor Gallagher,TOT,0.205,0.081,429,0.976,0.388,Tottenham
+Cristian Romero,TOT,0.094,0.089,1714,1.797,1.693,Tottenham
+Dane Scarlett,TOT,0.0,0.0,4,0.0,0.0,Tottenham
+Djed Spence,TOT,0.057,0.095,1617,1.031,1.71,Tottenham
+Dominic Solanke,TOT,0.353,0.032,397,1.556,0.143,Tottenham
+Guglielmo Vicario,TOT,0.0,0.0,2340,0.0,0.0,Tottenham
+Iyenoma Destiny Udogie,TOT,0.02,0.079,792,0.172,0.697,Tottenham
+João Palhinha,TOT,0.076,0.034,1505,1.27,0.572,Tottenham
+Jun&#039;ai Byfield,TOT,0.0,0.0,1,0.0,0.0,Tottenham
+Kevin Danso,TOT,0.002,0.0,662,0.011,0.0,Tottenham
+Lucas Bergvall,TOT,0.119,0.028,811,1.071,0.256,Tottenham
+Mathys Tel,TOT,0.271,0.052,621,1.867,0.36,Tottenham
+Micky van de Ven,TOT,0.101,0.04,2153,2.424,0.961,Tottenham
+Mohammed Kudus,TOT,0.135,0.147,1577,2.362,2.574,Tottenham
+Pape Sarr,TOT,0.153,0.133,902,1.534,1.335,Tottenham
+Pedro Porro,TOT,0.026,0.133,1832,0.525,2.715,Tottenham
+Radu Dragusin,TOT,0.046,0.0,241,0.124,0.0,Tottenham
+Randal Kolo Muani,TOT,0.158,0.065,1049,1.844,0.76,Tottenham
+Richarlison,TOT,0.391,0.155,1252,5.436,2.159,Tottenham
+Rodrigo Bentancur,TOT,0.046,0.048,1440,0.733,0.76,Tottenham
+Souza,TOT,0.0,0.091,30,0.0,0.03,Tottenham
+Wilson Odobert,TOT,0.234,0.186,946,2.46,1.952,Tottenham
+Xavi Simons,TOT,0.098,0.259,1398,1.526,4.028,Tottenham
+Yves Bissouma,TOT,0.056,0.0,246,0.153,0.0,Tottenham
+Aaron Wan-Bissaka,WHU,0.0,0.055,1469,0.0,0.905,West Ham
+Adama Traoré,WHU,0.152,0.157,237,0.4,0.415,West Ham
+Alphonse Areola,WHU,0.0,0.001,1800,0.0,0.022,West Ham
+Andy Irving,WHU,0.0,0.102,178,0.0,0.202,West Ham
+Axel Disasi,WHU,0.007,0.012,180,0.013,0.024,West Ham
+Callum Marshall,WHU,0.468,0.0,44,0.229,0.0,West Ham
+Callum Wilson,WHU,0.463,0.034,928,4.775,0.354,West Ham
+Crysencio Summerville,WHU,0.212,0.073,1620,3.825,1.323,West Ham
+El Hadji Malick Diouf,WHU,0.022,0.069,1644,0.409,1.262,West Ham
+Ezra Mayers,WHU,0.104,0.11,95,0.11,0.116,West Ham
+Freddie Potts,WHU,0.018,0.098,1082,0.213,1.184,West Ham
+George Earthy,WHU,0.0,0.0,7,0.0,0.0,West Ham
+Guido Rodríguez,WHU,0.014,0.0,159,0.024,0.0,West Ham
+Igor Julio,WHU,0.0,0.017,94,0.0,0.018,West Ham
+James Ward-Prowse,WHU,0.023,0.312,421,0.11,1.459,West Ham
+Jarrod Bowen,WHU,0.274,0.119,2336,7.112,3.083,West Ham
+Jean-Clair Todibo,WHU,0.039,0.022,1531,0.656,0.38,West Ham
+Konstantinos Mavropanos,WHU,0.056,0.0,1527,0.958,0.0,West Ham
+Kyle Walker-Peters,WHU,0.114,0.022,937,1.188,0.229,West Ham
+Lucas Paquetá,WHU,0.142,0.176,1544,2.441,3.012,West Ham
+Luis Guilherme,WHU,0.03,0.04,118,0.039,0.052,West Ham
+Mads Hermansen,WHU,0.0,0.0,540,0.0,0.0,West Ham
+Mateus Fernandes,WHU,0.044,0.112,1967,0.967,2.437,West Ham
+Max Kilman,WHU,0.068,0.012,1552,1.167,0.208,West Ham
+Mohamadou Kanté,WHU,0.737,1.236,8,0.066,0.11,West Ham
+Naif Aguerd,WHU,0.044,0.0,180,0.089,0.0,West Ham
+Niclas Füllkrug,WHU,0.213,0.097,416,0.983,0.449,West Ham
+Oliver Scarles,WHU,0.032,0.131,664,0.239,0.967,West Ham
+Pablo,WHU,0.194,0.08,266,0.575,0.236,West Ham
+Soungoutou Magassa,WHU,0.065,0.09,750,0.538,0.746,West Ham
+Tomas Soucek,WHU,0.254,0.048,1171,3.307,0.619,West Ham
+Valentín Castellanos,WHU,0.511,0.043,491,2.786,0.237,West Ham
+Adam Armstrong,WOL,0.0,0.349,180,0.0,0.697,Wolverhampton Wanderers
+André,WOL,0.011,0.046,1683,0.199,0.869,Wolverhampton Wanderers
+Angel Gomes,WOL,0.03,0.078,165,0.055,0.143,Wolverhampton Wanderers
+David Møller Wolfe,WOL,0.01,0.15,737,0.083,1.231,Wolverhampton Wanderers
+Emmanuel Agbadou,WOL,0.037,0.014,1093,0.447,0.172,Wolverhampton Wanderers
+Fernando López,WOL,0.093,0.218,211,0.218,0.512,Wolverhampton Wanderers
+Hee-Chan Hwang,WOL,0.187,0.08,1175,2.441,1.046,Wolverhampton Wanderers
+Hugo Bueno,WOL,0.034,0.113,1576,0.602,1.974,Wolverhampton Wanderers
+Jackson Tchatchoua,WOL,0.004,0.106,1247,0.061,1.463,Wolverhampton Wanderers
+Jean-Ricner Bellegarde,WOL,0.082,0.077,741,0.672,0.635,Wolverhampton Wanderers
+Jhon Arias,WOL,0.26,0.071,1140,3.293,0.896,Wolverhampton Wanderers
+José Sá,WOL,0.0,0.006,1260,0.0,0.083,Wolverhampton Wanderers
+João Gomes,WOL,0.027,0.038,2038,0.611,0.851,Wolverhampton Wanderers
+Jørgen Strand Larsen,WOL,0.263,0.03,1589,4.641,0.522,Wolverhampton Wanderers
+Ki-Jana Hoever,WOL,0.002,0.07,437,0.009,0.339,Wolverhampton Wanderers
+Ladislav Krejcí,WOL,0.073,0.042,1717,1.4,0.799,Wolverhampton Wanderers
+Marshall Munetsi,WOL,0.192,0.04,863,1.839,0.381,Wolverhampton Wanderers
+Mateus Mané,WOL,0.121,0.096,884,1.184,0.945,Wolverhampton Wanderers
+Matt Doherty,WOL,0.011,0.023,671,0.082,0.173,Wolverhampton Wanderers
+Pedro Lima,WOL,0.0,0.0,3,0.0,0.0,Wolverhampton Wanderers
+Rodrigo Gomes,WOL,0.147,0.025,551,0.9,0.151,Wolverhampton Wanderers
+Sam Johnstone,WOL,0.0,0.0,1080,0.0,0.0,Wolverhampton Wanderers
+Santiago Bueno,WOL,0.057,0.015,1469,0.926,0.241,Wolverhampton Wanderers
+Sasa Kalajdzic,WOL,0.0,0.0,11,0.0,0.0,Wolverhampton Wanderers
+Tawanda Chirewa,WOL,0.0,0.0,20,0.0,0.0,Wolverhampton Wanderers
+Tolu Arokodare,WOL,0.339,0.058,998,3.762,0.639,Wolverhampton Wanderers
+Toti,WOL,0.005,0.01,973,0.054,0.108,Wolverhampton Wanderers
+Yerson Mosquera,WOL,0.121,0.049,1333,1.799,0.722,Wolverhampton Wanderers
