@@ -1,0 +1,37 @@
+name: Phase 1 Ingest Schedule
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run ingest
+        env:
+          FPL_ENTRY_ID: ${{ secrets.FPL_ENTRY_ID }}
+          FPL_COOKIE: ${{ secrets.FPL_COOKIE }}
+        run: |
+          if [ -n "$FPL_ENTRY_ID" ]; then
+            python3 data_pipeline/ingest.py --entry-id "$FPL_ENTRY_ID"
+          else
+            python3 data_pipeline/ingest.py
+          fi
+
+      - name: Upload DB artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: fpl-mvp-db
+          path: data/fpl_mvp.db

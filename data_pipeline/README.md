@@ -3,6 +3,56 @@
 ## Planning docs
 - Phase 0 scope one-pager (English): `data_pipeline/PHASE0_SCOPE.md`
 
+## Phase 1 Ingest + Storage (SQLite MVP)
+Muc tieu bo sung cho Phase 1:
+- ingest du lieu FPL vao DB thay vi chi CSV snapshot
+- dat nen cho transfer optimization (players, fixtures, GW stats, prices, user squad snapshot)
+
+Script ingest:
+```bash
+python3 data_pipeline/ingest.py
+```
+
+Tu chon DB path:
+```bash
+python3 data_pipeline/ingest.py --db data/fpl_mvp.db
+```
+
+Refresh lai element-summary cache:
+```bash
+python3 data_pipeline/ingest.py --refresh-cache --workers 16 --retries 3 --retry-backoff 0.5
+```
+
+Ingest user squad snapshot (entry id):
+```bash
+python3 data_pipeline/ingest.py --entry-id 123456
+```
+
+Neu can endpoint `/my-team/{entry_id}`, truyen cookie:
+```bash
+python3 data_pipeline/ingest.py --entry-id 123456 --fpl-cookie "pl_profile=...; sessionid=..."
+```
+hoac set env var:
+```bash
+export FPL_COOKIE="pl_profile=...; sessionid=..."
+python3 data_pipeline/ingest.py --entry-id 123456
+```
+
+SQLite tables duoc tao:
+- `teams`
+- `players`
+- `fixtures`
+- `gw_player_stats`
+- `prices`
+- `injuries_news`
+- `user_squad_snapshot`
+- `user_squad_picks`
+
+Scheduler:
+- GitHub Actions workflow: `.github/workflows/phase1-ingest-schedule.yml`
+- Chay daily luc `03:00 UTC` + manual `workflow_dispatch`
+- Neu setup secrets `FPL_ENTRY_ID` va `FPL_COOKIE`, workflow se ingest them user squad snapshot
+
 ## Muc tieu
 Tao bang player feature voi schema:
 
