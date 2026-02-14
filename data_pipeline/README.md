@@ -1,5 +1,8 @@
 # Phase 1 - Data Pipeline (Foundation)
 
+## Planning docs
+- Phase 0 scope one-pager (English): `data_pipeline/PHASE0_SCOPE.md`
+
 ## Muc tieu
 Tao bang player feature voi schema:
 
