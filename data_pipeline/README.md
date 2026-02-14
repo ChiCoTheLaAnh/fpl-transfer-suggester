@@ -109,3 +109,107 @@ python3 data_pipeline/phase1_pipeline.py --refresh-cache --workers 16 --retries 
 - `xa90` = `expected_assists / minutes * 90`, nhung se set `0` neu `minutes < min-minutes-per90`
 - `next_opponent` co dang `TEAM (H|A)`
 - Neu truyen `--understat-csv`, cot `xg90/xa90` se duoc override theo cap `(player, team)` voi schema `player,team,xg90,xa90`
+
+---
+
+# Phase 2 - Ranking MVP
+
+## Muc tieu
+Xep hang cau thu outfield (DEF/MID/FWD) tu output Phase 1 bang weighted heuristic.
+
+## Scope
+- Co: ranking MVP, CLI, CSV + JSON metadata, deterministic output
+- Khong: transfer optimization theo squad ca nhan, API service, backtest history
+- GKP duoc loai khoi ranking Phase 2
+
+## Chay ranking
+Lenh mac dinh:
+```bash
+python3 data_pipeline/phase2_rank_players.py
+```
+
+Tu chon input/output:
+```bash
+python3 data_pipeline/phase2_rank_players.py \
+  --input data/phase1_player_features.csv \
+  --output-csv data/phase2_ranked_players.csv \
+  --output-json data/phase2_ranked_players.meta.json
+```
+
+Tune ranking:
+```bash
+python3 data_pipeline/phase2_rank_players.py \
+  --top-n-per-position 20 \
+  --min-minutes-avg 30 \
+  --positions DEF,MID,FWD \
+  --w-attack 0.50 \
+  --w-minutes 0.25 \
+  --w-value 0.20 \
+  --w-fixture 0.05
+```
+
+## Cong thuc scoring
+Eligibility:
+- `position` thuoc `DEF|MID|FWD`
+- `minutes_avg >= min_minutes_avg`
+- `xg90 + xa90 > 0`
+
+Feature:
+- `attack_raw = xg90 + 0.7 * xa90`
+- `minutes_raw = clamp(minutes_avg / 90, 0, 1)`
+- `value_raw = attack_raw / price` (neu `price <= 0` thi = 0)
+- `fixture_home = 1` neu `next_opponent` ket thuc bang `(H)`, nguoc lai = 0
+
+Normalize theo tung position:
+- Min-max cho `attack_raw`, `minutes_raw`, `value_raw`
+- Neu `max == min` thi set norm = `0.5`
+- `fixture_norm = fixture_home`
+
+Score:
+- `score = w_attack*attack_norm + w_minutes*minutes_norm + w_value*value_norm + w_fixture*fixture_norm`
+- `score` duoc round `6` chu so thap phan
+
+Sort/tie-break trong tung position:
+- `score DESC`
+- `value_raw DESC`
+- `price ASC`
+- `player ASC`
+
+## Output Phase 2
+CSV mac dinh:
+- `data/phase2_ranked_players.csv`
+- Schema co dinh:
+  - `player,team,position,price,next_opponent,minutes_avg,xg90,xa90,attack_raw,value_raw,fixture_home,score,rank_position`
+
+JSON mac dinh:
+- `data/phase2_ranked_players.meta.json`
+- Top-level keys co dinh:
+  - `schema_version`
+  - `input_file`
+  - `filters`
+  - `weights`
+  - `counts`
+
+## Definition of Done (Phase 2)
+1. Functional
+- Lenh chay thanh cong:
+```bash
+python3 data_pipeline/phase2_rank_players.py
+python3 data_pipeline/check_phase2_dod.py
+```
+
+2. Artifact contract
+- Tao duoc ca 2 file: CSV + JSON metadata
+- CSV schema exact-match
+- JSON schema exact-match
+- Khong co GKP trong output
+- Moi position toi da `top-n-per-position` dong
+- `rank_position` lien tuc tu 1 theo tung position
+
+3. Deterministic
+- Chay `phase2_rank_players.py` 2 lan lien tiep cung input
+- SHA256 cua CSV va JSON trung nhau
+
+4. CI
+- Workflow: `.github/workflows/phase2-dod.yml`
+- Chay `python3 data_pipeline/check_phase2_dod.py` moi push

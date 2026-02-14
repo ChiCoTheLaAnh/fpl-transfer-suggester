@@ -1,0 +1,29 @@
+{
+  "counts": {
+    "eligible_rows": 241,
+    "input_rows": 817,
+    "output_rows": 60,
+    "rows_by_position": {
+      "DEF": 20,
+      "FWD": 20,
+      "MID": 20
+    }
+  },
+  "filters": {
+    "min_minutes_avg": 30.0,
+    "positions": [
+      "DEF",
+      "MID",
+      "FWD"
+    ],
+    "top_n_per_position": 20
+  },
+  "input_file": "/Users/nguyentam/Fantasy Suggestor/data/phase1_player_features.csv",
+  "schema_version": "1.0",
+  "weights": {
+    "w_attack": 0.5,
+    "w_fixture": 0.05,
+    "w_minutes": 0.25,
+    "w_value": 0.2
+  }
+}
