@@ -56,6 +56,51 @@ python3 data_pipeline/phase1_pipeline.py --refresh-cache
 Mac dinh ghi ra file:
 - `data/phase1_player_features.csv`
 
+## Definition of Done (Phase 1)
+Phase 1 duoc xem la "Done" khi dat du tat ca tieu chi sau:
+
+1. Functional
+- Lenh chay thanh cong (exit code = 0):
+```bash
+python3 data_pipeline/phase1_pipeline.py --understat-csv data/understat_xgxa.csv
+```
+- Co log thong ke cuoi pipeline:
+  - `element-summary fetch stats: ...`
+  - `override stats: ...`
+
+2. Data contract (bat buoc)
+- Tao duoc file `data/phase1_player_features.csv`
+- Schema trung khop 100% (dung thu tu cot):
+  - `player,team,position,price,minutes_avg,goals,assists,xg90,xa90,next_opponent`
+- So dong output = so player trong FPL `bootstrap-static` (khong thieu player)
+- Khong co gia tri rong o cac cot tren
+- `next_opponent` khong co `TBD` trong run binh thuong
+
+3. Data quality gates
+- `element-summary` fetch errors = 0 trong run binh thuong
+- Khi dung `--understat-csv`, `override_coverage_pct >= 40%`
+- File `understat_xgxa.csv` co team mapping hop le (khong co unresolved team code > 3 ky tu)
+
+4. Operational readiness
+- Ho tro run nhanh bang cache (mac dinh `data/cache/element_summary`)
+- Ho tro full refresh bang `--refresh-cache`
+- Co tai lieu huong dan day du trong README de 1 nguoi moi co the tu chay duoc
+
+## Refresh cache schedule (de xuat)
+1. Hang ngay (nhanh, dung cache):
+```bash
+python3 data_pipeline/phase1_pipeline.py --understat-csv data/understat_xgxa.csv
+```
+
+2. Hang tuan (full refresh, khuyen nghi Thu Hai 03:00 local time):
+```bash
+python3 data_pipeline/fetch_understat_xgxa.py --season 2025 --output data/understat_xgxa.csv
+python3 data_pipeline/phase1_pipeline.py --refresh-cache --workers 16 --retries 3 --retry-backoff 0.5 --understat-csv data/understat_xgxa.csv
+```
+
+3. Truoc han chot GW (neu can):
+- Chay lai full refresh neu co bien dong lon ve fixture/chuyen nhuong/injury duoc cap nhat vao FPL API.
+
 ## Ghi chu
 - `minutes_avg` = trung binh minutes cua `last N` tran gan nhat tu `element-summary/{player_id}` history
 - `position` = map `elements.element_type` voi `element_types` (VD: GKP/DEF/MID/FWD)
