@@ -266,3 +266,86 @@ python3 data_pipeline/check_phase2_dod.py
 4. CI
 - Workflow: `.github/workflows/phase2-dod.yml`
 - Chay `python3 data_pipeline/check_phase2_dod.py` moi push
+
+---
+
+# Phase 2 - Feature Engineering (player x GW)
+
+## Muc tieu
+Tao feature table theo tung `player x upcoming fixture (GW)` de phuc vu expected-points model va transfer optimization.
+
+## Input
+- SQLite DB tu ingest:
+  - `data/fpl_mvp.db`
+- Bang su dung:
+  - `players`, `teams`, `fixtures`, `gw_player_stats`, `prices`
+
+## Chay feature builder
+Lenh mac dinh:
+```bash
+python3 data_pipeline/build_feature_table.py
+```
+
+Tuy chinh output va horizon:
+```bash
+python3 data_pipeline/build_feature_table.py \
+  --db data/fpl_mvp.db \
+  --output data/player_gw_features.parquet \
+  --horizon 3
+```
+
+Neu can include ca fixture da ket thuc:
+```bash
+python3 data_pipeline/build_feature_table.py --include-finished
+```
+
+## Feature groups da co
+1. Rolling form (truoc target fixture):
+- `recent_points_avg_3`, `recent_points_avg_5`
+- `recent_minutes_avg_3`, `recent_minutes_avg_5`
+- `recent_xgi_avg_3`, `recent_xgi_avg_5`
+
+2. Fixture context:
+- `is_home`, `opponent_difficulty`
+- `dgw_count_in_event`, `is_dgw`
+- `rest_days`
+
+3. Risk features:
+- `minutes_volatility_5`
+- `points_volatility_5`
+- `benching_probability` (heuristic tu minutes gan day)
+- `risk_score`
+
+4. Multi-GW planning features:
+- `horizon`
+- `horizon_fixture_count_team`
+- `horizon_avg_fixture_difficulty`
+- `horizon_home_count`
+
+## Output
+Parquet mac dinh:
+- `data/player_gw_features.parquet`
+
+Schema co dinh:
+- `player_id,player_name,team_id,team,position,fixture_id,target_event,kickoff_time,is_home,opponent_team_id,opponent_team,opponent_difficulty,dgw_count_in_event,is_dgw,rest_days,horizon,horizon_fixture_count_team,horizon_avg_fixture_difficulty,horizon_home_count,recent_points_avg_3,recent_points_avg_5,recent_minutes_avg_3,recent_minutes_avg_5,recent_xgi_avg_3,recent_xgi_avg_5,minutes_volatility_5,points_volatility_5,benching_probability,risk_score,last_price,current_status`
+
+## Definition of Done (Phase 2 FE)
+1. Functional
+```bash
+python3 data_pipeline/build_feature_table.py
+python3 data_pipeline/check_phase2_features_dod.py
+```
+
+2. Data contract
+- Output parquet ton tai va non-empty
+- Schema exact-match
+- Khong duplicate tren `(player_id, fixture_id)`
+- `is_dgw` khop voi `dgw_count_in_event`
+- `benching_probability` va `risk_score` trong [0, 1]
+
+3. Deterministic
+- Chay build 2 lan voi cung input -> SHA256 parquet khong doi
+
+4. CI
+- Workflow: `.github/workflows/phase2-features-dod.yml`
+- CI chay ingest + check feature DoD moi push
